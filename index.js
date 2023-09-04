@@ -65,6 +65,7 @@ async function SvgPacker({ icons, ...options }) {
   addFile('_demo.html', 'demoHTML', makeDemoHTML(parsedIcons, options), 'text/html')
 
   result.zip = {}
+  result.zip.zipInstance = zip;
   result.zip.blob = zip.generate({ type: 'blob', compression: 'DEFLATE' })
   result.zip.url = makeUrl(result.zip.blob)
   result.zip.name = `${options.fileName}.zip`

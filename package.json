@@ -1,6 +1,6 @@
 {
-  "name": "svg-packer",
-  "version": "0.0.3",
+  "name": "svg-packer2",
+  "version": "0.0.1",
   "description": "Pack SVGs to Icon Fonts - In Browser!",
   "main": "index.js",
   "jsdelivr": "dist/index.browser.js",
@@ -29,7 +29,7 @@
     "mkdirp": "^1.0.4",
     "rimraf": "^3.0.2"
   },
-  "author": "Anthony Fu",
+  "author": "meakle",
   "license": "MIT",
   "eslintConfig": {
     "extends": "@antfu"
